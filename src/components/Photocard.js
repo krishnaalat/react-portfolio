@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import ImageCard from '../../src/Profile.jpeg';
 
 function Photocard() {
     return (
         <div>
-            <img style = {imgStyle} src = {require('C:\\react-node\\portfolio\\src\\Profile.jpeg')}></img>
+            <img style = {imgStyle} src = {ImageCard}></img>
         </div>
     )
 
