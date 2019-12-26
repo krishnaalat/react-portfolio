@@ -22,7 +22,7 @@ class Contact extends Component {
         const name= target.name;
 
         this.setState({
-            [name]: value.toUpperCase()
+            [name]: value
         });
       }
     
